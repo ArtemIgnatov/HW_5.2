@@ -25,12 +25,12 @@ namespace HW_5._2
         {
             Console.WriteLine("Введите предложение: ");
 
-            string newText = Console.ReadLine();
+            string newString = Console.ReadLine();
 
-            newText = SplitWord(newText);
+            newString = SplitWord(newString);
 
 
-            Console.WriteLine(newText);
+            Console.WriteLine(newString);
             Console.ReadLine();
         }
     }
